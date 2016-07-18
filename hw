@@ -1,0 +1,20 @@
+18. 
+var shout = function () {		
+       var message= “HEY YOU”;		//New local variable is established
+       alert (message);			//that only lives during call
+};
+shout ();				//Alert comes back as reference error as “message” 
+alert (message);				//is still not defined
+
+
+19. alert (“Hello”)
+var alert=2			//This ‘var’ creates a syntax error 
+alert(“World”);
+
+27.  private Movie  () {
+	newTitle ();
+	newRating ();
+	newProducer ();
+	newStudio();
+	release= 30;
+}
